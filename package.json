@@ -1,0 +1,19 @@
+{
+  "name": "insta-react-feed",
+  "version": "1.0.0",
+  "description": "Instagram feed for react apps",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/IzharMishli/insta-react-feed.git"
+  },
+  "author": "Izhar Mishli",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/IzharMishli/insta-react-feed/issues"
+  },
+  "homepage": "https://github.com/IzharMishli/insta-react-feed#readme"
+}
