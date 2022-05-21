@@ -2,7 +2,7 @@
   "name": "insta-react-feed",
   "version": "1.0.2",
   "description": "Instagram feed for react apps",
-  "main": "InstaFeed.jsx",
+  "main": "InstaFeed.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
