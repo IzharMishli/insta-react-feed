@@ -18,6 +18,16 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/IzharMishli/insta-react-feed.git"
+  },
+  "author": "Izhar Mishli",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/IzharMishli/insta-react-feed/issues"
+  },
+  "homepage": "https://github.com/IzharMishli/insta-react-feed#readme",
   "eslintConfig": {
     "extends": [
       "react-app",
