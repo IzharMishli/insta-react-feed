@@ -22,4 +22,4 @@
 
 # Example
 
-![image](.\example\1.png)
+![image](/example/1.png)
