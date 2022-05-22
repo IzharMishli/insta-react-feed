@@ -1,0 +1,28 @@
+{
+  "name": "insta-react-feed",
+  "version": "1.0.3",
+  "description": "Instagram feed for react apps",
+  "main": "InstaFeed.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "rm -rf dist && NODE_ENV=production babel src/lib --out-dir dist --copy-files"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/IzharMishli/insta-react-feed.git"
+  },
+  "author": "Izhar Mishli",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/IzharMishli/insta-react-feed/issues"
+  },
+  "homepage": "https://github.com/IzharMishli/insta-react-feed#readme",
+  "devDependencies": {
+    "@babel/cli": "^7.17.10",
+    "@babel/core": "^7.18.0",
+    "@babel/preset-env": "^7.18.0"
+  },
+  "dependencies": {
+    "@babel/polyfill": "^7.12.1"
+  }
+}
