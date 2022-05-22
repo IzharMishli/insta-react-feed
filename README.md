@@ -19,3 +19,7 @@
  # TAG explaination:
     put a word that you want to filter from the result, for exmaple "#travel" or "#food"
     than make sure you put that word in the caption of the relevant images.
+
+# Example
+
+![image](.\example\1.png)
