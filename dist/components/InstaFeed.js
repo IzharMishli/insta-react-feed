@@ -50,7 +50,7 @@ function _default(props) {
   console.log(posts);
   return /*#__PURE__*/_react.default.createElement("div", {
     className: "row insta-part"
-  }, /*#__PURE__*/_react.default.createElement("h1", null, posts.feeds.length > 0 ? "" : "Loading"), posts.feeds.filter(post => String(post.caption).includes("ronchu") && (post.media_type == "IMAGE" || post.media_type == "CAROUSEL_ALBUM")).map(post => /*#__PURE__*/_react.default.createElement(_InstaImg.default, {
+  }, /*#__PURE__*/_react.default.createElement("h1", null, posts.feeds.length > 0 ? "" : "Loading"), posts.feeds.filter(post => String(post.caption).includes(props.tag ? props.tag : "") && (post.media_type == "IMAGE" || post.media_type == "CAROUSEL_ALBUM")).map(post => /*#__PURE__*/_react.default.createElement(_InstaImg.default, {
     imgsrc: post.media_url,
     link: post.permalink
   })));

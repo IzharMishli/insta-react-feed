@@ -38,7 +38,7 @@ export default function(props){
                 
                 <div className="row insta-part">
                     <h1>{posts.feeds.length > 0 ? "" : "Loading"}</h1>
-                    {posts.feeds.filter(post => String(post.caption).includes("ronchu") && (post.media_type=="IMAGE" || post.media_type=="CAROUSEL_ALBUM")).map(post => (
+                    {posts.feeds.filter(post => String(post.caption).includes(props.tag ? props.tag : "") && (post.media_type=="IMAGE" || post.media_type=="CAROUSEL_ALBUM")).map(post => (
                         <InstaImg imgsrc={post.media_url} link={post.permalink}/>
                     ))}
                 </div>
