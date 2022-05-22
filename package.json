@@ -1,6 +1,6 @@
 {
   "name": "insta-react-feed",
-  "version": "1.0.6",
+  "version": "1.0.7",
   "main": "/src/index.js",
   "dependencies": {
     "@babel/polyfill": "^7.12.1",
