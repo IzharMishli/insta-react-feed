@@ -6,8 +6,9 @@
 
  # usage
  1. import module
+```
  import {InstaFeed} from "insta-react-feed";
-
+ ```
  2. put component in your code:
  ```
 <InstaFeed 
